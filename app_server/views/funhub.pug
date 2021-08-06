@@ -1,0 +1,21 @@
+extend layout
+
+block content
+ .container
+  header 
+    h1= title 
+  .main
+    a(href="/funhub/learnabc") 
+     section.letters
+      p Alphabets and Words
+    a(href="/funhub/rhymes") 
+     section.rhymes
+      p Rhymes, Poems and Music
+    a(href="/funhub/cartoons") 
+     section.cartoons
+      p Cartoons and Entertainment
+  footer
+    a(href="/")
+     img(inline src="/images/nohome.svg", alt="home icon")
+    a(href="/funhub") 
+     img(inline src="/images/mediamain.svg", alt="Fun Hub icon")

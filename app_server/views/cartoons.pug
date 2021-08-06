@@ -1,0 +1,17 @@
+extend layout
+
+block content
+ .container
+  header 
+    h1= title 
+  main.youtube
+    
+  footer.footer
+    a(href="/")
+     img(inline src="/images/nohome.svg", alt="home icon")
+    a(href="/funhub") 
+     img(inline src="/images/mediamain.svg", alt="Fun Hub icon")
+  script(src="https://apis.google.com/js/api.js")
+  script(src="/javascripts/cartoons.js")
+  script(src="https://apis.google.com/js/client.js?onload=loadClient") 
+  

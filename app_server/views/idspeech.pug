@@ -1,0 +1,20 @@
+extend layout
+
+block content
+ .container
+  header 
+    h1= title 
+  main.idmain
+   section
+    img(src="/images/adultmic.png", alt="" onclick ="startRecognition(this)").idimg#idimg1
+    p.p1 Parent speak
+   section
+    img(src="/images/icons8-microphone-100.png", alt="" onclick ="startRecognition(this)").idimg#idimg2
+    p.p2 Child speak
+  footer.footer
+    a(href="/")
+     img(inline src="/images/home.svg", alt="home icon")
+    a(href="/funhub") 
+     img(inline src="/images/media.svg", alt="Fun Hub icon")
+  script(src="https://code.responsivevoice.org/responsivevoice.js")
+  script(src="/javascripts/details/idspeech.js")

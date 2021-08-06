@@ -1,0 +1,31 @@
+
+let alpbabets = [
+    {letter : 'A', color: 'purple' },
+    {letter : 'B', color: 'purple' },
+    {letter : 'C', color: 'purple' },
+    {letter : 'D', color: 'purple' },
+    {letter : 'E', color: 'purple' },
+    {letter : 'F', color: 'purple' },
+    {letter : 'G', color: 'purple' },
+    {letter : 'H', color: 'purple' },
+    {letter : 'I', color: 'purple' },
+    {letter : 'J', color: 'purple' },
+    {letter : 'K', color: 'purple' },
+    {letter : 'L', color: 'purple' },
+    {letter : 'M', color: 'purple' },
+    {letter : 'N', color: 'purple' },
+    {letter : 'O', color: 'purple' },
+    {letter : 'P', color: 'purple' },
+    {letter : 'Q', color: 'purple' },
+    {letter : 'R', color: 'purple' },
+    {letter : 'S', color: 'purple' },
+    {letter : 'T', color: 'purple' },
+    {letter : 'U', color: 'purple' },
+    {letter : 'V', color: 'purple' },
+    {letter : 'W', color: 'purple' },
+    {letter : 'X', color: 'purple' },
+    {letter : 'Y', color: 'purple' },
+    {letter : 'Z', color: 'purple' },
+]
+
+//module.exports{alpbabets}

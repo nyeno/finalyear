@@ -1,0 +1,26 @@
+extends layout
+
+block content
+ .container
+  header 
+    h1= title 
+  main
+   a(href="/phonetics")
+    section.phonetics
+      p Learn ABCs and Phonetics
+   a(href="/words")
+    section.words
+      p Learn New Words 
+   a(href="/sentences") 
+    section.sentences
+      p Make New Sentences 
+   a(href="/infantDirected") 
+    section.idspeech
+      img(src="/images/mic.png" alt="Learn from Infant-Directed Speech")
+      p Learn From Infant-Directed Speech 
+  footer
+    a(href="/")
+     img(inline src="/images/home.svg", alt="home icon")
+    a(href="/funhub")  
+     img(inline src="/images/media.svg", alt="Fun Hub icon")
+
